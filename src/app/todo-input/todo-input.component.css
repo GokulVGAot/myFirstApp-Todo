@@ -1,0 +1,30 @@
+.box {
+  text-align: center;
+  padding: 1rem;
+  background-color: burlywood;
+  width: 50%;
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.253);
+}
+.box input {
+  margin: 0 10px 0 10px;
+  width: 70%;
+  padding: 0.4rem;
+  outline: none;
+  border: none;
+}
+.box input:hover{
+background-color: rgba(211, 243, 230, 0.966);
+}
+.box button{
+    padding:.4rem .9rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color: cadetblue;
+    color: white;
+}
+.box button:hover{
+    background-color: white;
+    color: cadetblue;
+}

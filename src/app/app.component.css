@@ -1,0 +1,12 @@
+.container {
+  padding: 4rem;
+  border: 1px solid black;
+}
+.box{
+  text-align: center;
+  padding: 1rem;
+  background-color: burlywood;
+  width: 50%;
+  margin:10px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.253);
+}

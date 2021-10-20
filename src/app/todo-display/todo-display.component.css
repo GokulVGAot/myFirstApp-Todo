@@ -1,0 +1,12 @@
+.singleItem{
+   width:70%;
+   background-color: cadetblue; 
+   padding:1px;
+   color:white;
+   margin:10px auto;
+   font-size: 1.3rem;
+   cursor: pointer;
+}
+.singleItem:hover{
+    background-color: rgb(34, 97, 99);
+}

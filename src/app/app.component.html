@@ -1,0 +1,12 @@
+<div class="container">
+  <app-todo-input (addTodoEmitter)="todoCreated($event)"></app-todo-input>
+  <div class="box">
+    <p *ngIf="!Todos">No Todos available,Add Todo</p>
+    <!-- <p>Hello</p> -->
+    <app-todo-display
+      *ngFor="let todo of Todos; let i = index"
+      [item]="todo"
+      (click)="onClickTodo(i)"
+    ></app-todo-display>
+  </div>
+</div>
